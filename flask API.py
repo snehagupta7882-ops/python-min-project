@@ -19,7 +19,7 @@ app.run(debug=True)
  #post (user ke data ko add kar sakte hai)
 from flask import Flask, request
 
-app = Flask(__name__)
+app = Flask(_name_)
 
 users = ["Aditi", "Rahul", "Priya"]
 
@@ -46,7 +46,7 @@ def update_user(index):
 app.run(debug=True)
 
 #  delete (user ko delete karne ke liye)
-from flask import Flask
+from flask import Flask 
 
 app = Flask(__name__)
 
