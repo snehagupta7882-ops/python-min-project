@@ -9,4 +9,4 @@ def get_users():
    response = requests.get(users[0])
    return response.json()
 
-app.run(debug=True)
+app.run(debug=true)
